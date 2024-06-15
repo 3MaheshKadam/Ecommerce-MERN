@@ -1,10 +1,10 @@
 import {BrowserRouter ,Routes ,Route} from 'react-router-dom';
-import Header from './components/Header';
-import Footer from './components/Header';
+import Header from './components/Header.jsx';
+import Footer from './components/Footer.jsx';
 
-import Home from './Pages/Home';
-import Category from './Pages/Category';
-import Product from './Pages/Product';
+import Home from './Pages/Home.jsx';
+import Category from './Pages/Category.jsx';
+import Product from './Pages/Product.jsx';
 export default function App() {
   return (
     <BrowserRouter>

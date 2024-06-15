@@ -27,16 +27,16 @@ const Header = () => {
   },[menuOpened]);
 
   return (
-    <header className='p-2 w-full z-50 border  '>
-      <div className="flexBetween py-4 max-padd-container ">
-        <Link to={'/'} className='flex items -center gap-x-2'>
+    <header className='p-2 w-full z-50  max-padd-container '>
+      <div className="flexBetween py-4 ">
+        <Link to={'/'} className='flex items-center gap-x-2'>
         <img src={logo} alt="logoImg" height={31} width={31} />
-        <span className='bold-24 hidden xs:flex'>Kadam</span>
+        <span className='bold-28 hidden xs:flex'>Kadam</span>
         </Link>
-        <div className="flexCenter gap-x-4"> 
+        <div className="flexCenter mx-20 gap-x-4 "> 
           {/* pc */}
-          <div className="">
-          <Navbar containerStyles={"hidden xl:flex gap-x-5 xl:gap-x10 medium-15 rounded-full px-2 py-1"}/>
+          <div className="mx-10">
+          <Navbar containerStyles={"hidden xl:flex gap-x-5 xl:gap-x-10 medium-25 rounded-full px-2 py-1"}/>
           </div> 
           {/* mobile */}
           <div className=""> 
@@ -47,7 +47,8 @@ const Header = () => {
           {!menuOpened ? (
             <MdMenu className='xl:hidden cursor-pointer text-3xl hover:text-secondary'onClick={toggleMenu}/>
           ):(<MdClose className='xl:hidden cursor-pointer text-3xl hover:text-secondary'onClick={toggleMenu}/>)}
-          <div className="flexBetween sm:gap-x-6">
+
+          <div className="flexBetween sm:gap-x-6 ">
             <NavLink to={'/'} className={'flex'}>
             <RiShoppingCart2Line className='p-2 h-10 w-10'/>
             <span className='relative flexCenter w-5 h-5 rounded-full bg-secondary text-primary font-medium-14 -top-2 right-3'>{0}</span>

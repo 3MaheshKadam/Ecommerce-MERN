@@ -4,9 +4,9 @@ import RelatedProduct from './RelatedProduct.jsx';
 const Hero = () => {
   return (
     <section>
-        <div className="max-padd-container bg-hero bg-cover bg-no-repeat h-[744px] w-full">
-            <div className="relative top-2 xs:top-32">
-            <h4 className='uppercase medium-18'>Trendy Treasuers</h4>
+        <div className=" bg-hero bg-cover bg-no-repeat h-[744px] w-full">
+            <div className="relative top-2 xs:top-32 max-padd-container">
+            <h4 className='uppercase medium-18 tracking-wider'>Trendy Treasuers</h4>
             <h2 className='h1 capitalize max-w-[40rem]'>Treat Yourself with <span className='text-secondary'>Something Special </span>and Find What Makes You Smile!</h2>
             <p className='my-5 max-w-[33rem]'>Welcome to Kadam's Ecommerce, your destination for fashion and style. 
              Enjoy a seamless shopping experience on our easy-to-navigate website.</p>

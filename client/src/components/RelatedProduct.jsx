@@ -28,8 +28,8 @@ const RelatedProduct = () => {
         //   slidesPerView={4}
         //   navigation
         //   pagination={{ clickable: true }}
-        //   loop
-        className='h-[422px] sm:h-[477px] mt-5'
+        //   loop h-[422px] sm:h-[477px] 
+        className='h-[188px] mt-5'
         >
           {LATEST.map((item, i) => (
             <SwiperSlide key={i}> 

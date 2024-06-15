@@ -27,8 +27,8 @@ const Header = () => {
   },[menuOpened]);
 
   return (
-    <header className='max-padd-container w-full z-50 border'>
-      <div className="flexBetween py-3">
+    <header className='p-2 w-full z-50 border  '>
+      <div className="flexBetween py-4 max-padd-container ">
         <Link to={'/'} className='flex items -center gap-x-2'>
         <img src={logo} alt="logoImg" height={31} width={31} />
         <span className='bold-24 hidden xs:flex'>Kadam</span>

@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 import {RiShoppingCart2Line} from 'react-icons/ri'
 const Item = ({ id, name, image, old_price, new_price }) => {
   return (
-    <Link to={''}className='bg-white p-4 rounded-xl relative'>
+    <Link to={''}className='bg-white p-2 rounded-xl relative'>
       <div className='flexCenter'>
         <img src={image} alt={name} height={211} width={211} className='rounded-lg drop-shadow-xl absolute bottom-40 '/>
       </div>

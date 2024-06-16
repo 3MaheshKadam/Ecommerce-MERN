@@ -5,7 +5,7 @@ import about from '../assets/about.png'
 const About = () => {
   return (
     <section className='max-padd-container py-12 xl:py-32'>
-      <div className='flex flex-col xl:flex-row'>
+      <div className='flex flex-col gap-16 xl:flex-row xl:gap-8 '>
         {/* right */}
         <div className='flex-1'>
           <h3 className='h3 capitalize'>Unveiling our product's key features!</h3>

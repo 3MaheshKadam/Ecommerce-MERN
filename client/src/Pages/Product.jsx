@@ -3,7 +3,7 @@ import { useParams } from 'react-router-dom';
 import ProductHd from '../components/ProductHd';
 import all_products from '../assets/all_products.js';
 import ProductDisplay from '../components/ProductDisplay.jsx';
-import PopularProducts from '../components/PopularProducts.jsx';
+import PopularProduct from '../components/PopularProudct.jsx';
 import ProductDiscription from '../components/ProductDiscription.jsx';
 
 const Product = () => {
@@ -21,7 +21,7 @@ const Product = () => {
         <ProductHd product={product} />
         <ProductDisplay product={product}/>
         <ProductDiscription/>
-        <PopularProducts/>
+        <PopularProduct/>
       </div>
     </section>
   );

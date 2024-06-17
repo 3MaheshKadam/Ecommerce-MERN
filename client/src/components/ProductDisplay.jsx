@@ -4,8 +4,8 @@ import { FaStar, FaHeart } from 'react-icons/fa6';
 const ProductDisplay = (props) => {
     const { product } = props;
     return (
-        <section className='max-padd-container flex flex-col gap-8 xl:flex-row bg-primary'>
-            <div className=" flex gap-x-2 xl:flex-1 py-5">
+        <section className='max-padd-container flex flex-col gap-8 xl:flex-row '>
+            <div className=" flex gap-x-2 xl:flex-1 py-5 bg-primary">
                 <div className=" flex flex-col gap-[7px] flex-wrap">
                     <img src={product.image} alt="" className='max-h-[84px] rounded-lg bg-gray-10' />
                     <img src={product.image} alt="" className='max-h-[84px] rounded-lg bg-gray-10' />
